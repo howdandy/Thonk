@@ -1,0 +1,44 @@
+<template name="search">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="input-group">
+			      <span class="input-group-btn">
+			        <button class="btn btn-default" id="searchGo" type="button">Go!</button>
+			      </span>
+			      <span class="input-group-addon" id="lblUrlInput">http://</span>
+			      <input type="text" class="form-control" id="urlInput" value="stm.sciencemag.org/" placeholder="Enter a URL to Crawl.">
+			    </div>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="input-group">
+			      <span class="input-group-addon" id="lblUrlInput">Key Words: </span>
+			      <input type="text" class="form-control" id="keyTerms" value="medicine" placeholder="science, biology, chemistry">
+			    </div>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="alert alert-danger" style="display: none;" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  		<div class="message"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<button class="btn btn-danger" id="removeAllFiles">Remove All Crawled Files</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output"></div>
+			</div>
+		</div>
+	</div>
+</template>

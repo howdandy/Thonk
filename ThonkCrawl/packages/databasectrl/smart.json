@@ -1,0 +1,9 @@
+{
+  "name": "databasectrl",
+  "description": "The Thonk Application Database Controller.",
+  "homepage": "http://thonk.org",
+  "author": "Avery Pfeiffer <avery.pfeiffer@gmail.com> (http://averypfeiffer.com)",
+  "version": "0.0.1",
+  "git": "https://github.com/averypfeiffer/",
+  "packages": {}
+}

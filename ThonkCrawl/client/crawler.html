@@ -1,0 +1,26 @@
+<template name="crawler">
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="hidden">
+        ThonkCrawl
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3">
+          {{> header}}
+        <hr>
+      </div>
+    </div>
+    <div class="row"> 
+      <div class="col-xs-12">
+        {{> content}}
+      </div>
+    </div>
+  </div>
+</template>
+<template name="header">
+      <img src="/assets/images/logo_crawl_700_x_309.png" class="img-responsive">
+</template>
+<template name="content">
+  {{> yield}}
+</template>
